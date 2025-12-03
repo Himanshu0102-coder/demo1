@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>FORM FOR SIGMA GAMEPLAY</h1>
+    <form action="post ">
+        <div>
+            <label for="username">enter your username</label>
+            <input type=" text" id="username" name="username" placeholder="enter your username">
+        </div>
+        <div>
+            <label for="email">enter you email</label>
+            <input type="text" id="email" name="eamil" placeholder="enter your email">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            <input type="checkbox" id=" join" name="join" value="yes">
+            <label for="join"> To join sigma gameplay</label>
+        </div>
+        <div>
+            <input type="radio" id="physical sports" name="sports" value="physical sports">
+            <label for="physical sports">Physical sports</label>
+            <input type="radio" id="esports" name="sports" value="esports">
+            <label for="esports">Esports</label>
+            <div>
+                <select name="sports" id="physical sporsts">
+                    <option value="vollyball">vollyball</option>
+                    <option value="basketball">basketball</option>
+                    <option value="kabbadi">kabbadi</option>
+                    <option value="cricket">cricket</option>
+                </select>
+                <select name="sports" id="esports">
+                    <option value="BGMI">BGMI</option>
+                    <option value="free fire">free fire</option>
+                    <option value="velorent">velorent</option>
+                    <option value="COD">COD</option>
+                </select>
+            </div>
+
+        </div>
+        <div>
+
+            <LAbel for="request">Enter your request</LAbel>
+            <br>
+            <textarea name="request" id="request" row="3" cols="40"></textarea>
+        </div>
+        <div>
+            <input type="range" min="50" max="100">
+            <label for="volume">volume</label>
+        </div>
+        <div>
+            <input type="text" pattern="[a-zA-Z0-9]+">
+        </div>
+        <div>
+            <input type="button" value="submit"> 
+        </div>
+    </form>
+
+</body>
+
+</html>
